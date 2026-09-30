@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "zhixi-desktop": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\path\\to\\zhixi-desktop-mcp\\src\\server.js"
+      ],
+      "env": {
+        "ZHIXI_EXE": "C:\\Program Files\\ZhiXi\\ZXMind\\zhiximind-desktop.exe",
+        "ZHIXI_DEBUG_PORT": "19222"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "zhixi-desktop-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "知犀 Windows 桌面版 MCP 服务",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/server.js",
+    "launch": "node src/cli.js launch",
+    "doctor": "node src/cli.js doctor",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.31.0",
+    "ws": "8.18.3",
+    "zod": "3.25.76"
+  }
+}
